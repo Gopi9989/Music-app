@@ -1,0 +1,390 @@
+export const albums = [
+  {
+    id: 1,
+    name: "Telugu Hits",
+    description: "Latest Telugu songs",
+    image: "./src/assets/music-images/devera.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "ALL HAIL THE TIGER",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Devara.mp3",
+        image: "./src/assets/music-images/devera.jpg",
+        category: "Telugu Songs",
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "Pop Hits",
+    description: "Best pop songs of the decade",
+    image: "./src/assets/music-images/hanuman.jpeg",
+    songs: [
+      {
+        id: 1,
+        title: "Happy",
+        artist: "Pharrell Williams",
+        src: "./src/assets/music/hanuman.mp3",
+        image: "./src/assets/music-images/hanuman.jpeg",
+        category: "Top Songs",
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Pop Hits",
+    description: "Top pop songs",
+    image: "./src/assets/music-images/bagheera.png",
+    songs: [
+      {
+        id: 1,
+        title: "Shape of You",
+        artist: "Ed Sheeran",
+        src: "./src/assets/music/Bagheera.mp3",
+        image: "./src/assets/music-images/bagheera.png",
+        category: "Top Songs",
+      },
+    ],
+  },
+  {
+    id: 4,
+    name: "Telugu Hits",
+    description: "Top Telugu songs",
+    image: "./src/assets/music-images/salaar.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "Butta Bomma",
+        artist: "Armaan Malik",
+        src: "./src/assets/music/salaar.mp3",
+        image: "./src/assets/music-images/salaar.jpg",
+        category: "Telugu Songs",
+      },
+    ],
+  },
+
+  {
+    id: 5,
+    name: "Bollywood Beats",
+    description: "Latest Hindi songs",
+    image: "./src/assets/music-images/eagle.jpeg",
+    songs: [
+      {
+        id: 1,
+        title: "Kesariya",
+        artist: "Arijit Singh",
+        src: "./src/assets/music/Eagle.mp3",
+        image: "./src/assets/music-images/eagle.jpeg",
+        category: "Hindi Songs",
+      },
+    ],
+  },
+  {
+    id: 6,
+    name: "English Hits",
+    description: "Top English songs",
+    image: "./src/assets/music-images/avasm.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "As It Was",
+        artist: "Harry Styles",
+        src: "./src/assets/music/Aavesham.mp3",
+        image: "./src/assets/music-images/avasm.jpg",
+        category: "English Songs",
+      },
+    ],
+  },
+  {
+    id: 7,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/Amaran.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Amaran.mp3",
+        image: "./src/assets/music-images/Amaran.jpg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 8,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/daaku.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Daaku.mp3",
+        image: "./src/assets/music-images/daaku.jpg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+ ,
+ {
+   id: 9,
+   name: "Rock Classics",
+   description: "Best rock songs of the decade",
+   image: "./src/assets/music-images/kanguva.jpg",
+   songs: [
+     {
+       id: 9,
+       title: "Bohemian Rhapsody",
+       artist: "Queen",
+       src: "./src/assets/music/Kanguva.mp3",
+       image: "./src/assets/music-images/kanguva.jpg",
+       category: "Top Songs",
+     },
+   ],
+ },
+  {
+    id: 10,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/gamechanger.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Gamechanger.mp3",
+        image: "./src/assets/music-images/gamechanger.jpg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 11,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/ka.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Ka.mp3",
+        image: "./src/assets/music-images/ka.jpg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 12,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/luckybaskar.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/LuckyBaskhar.mp3",
+        image: "./src/assets/music-images/luckybaskar.jpg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 13,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/marco.jpeg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Marco.mp3",
+        image: "./src/assets/music-images/marco.jpeg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 14,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/matka.jpeg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Matka.mp3",
+        image: "./src/assets/music-images/matka.jpeg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 15,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/max.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Max.mp3",
+        image: "./src/assets/music-images/max.jpg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 16,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/pushpa.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Pushpa.mp3",
+        image: "./src/assets/music-images/pushpa.jpg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 17,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/robinhood.png",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Robinhood.mp3",
+        image: "./src/assets/music-images/robinhood.png",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 18,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/sankranthriki.jpeg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Sankranthiki.mp3",
+        image: "./src/assets/music-images/sankranthriki.jpeg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 19,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/swag.jpeg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Swag.mp3",
+        image: "./src/assets/music-images/swag.jpeg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 20,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/thandel.jpeg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Thandel.mp3",
+        image: "./src/assets/music-images/thandel.jpeg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 21,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/Zebra.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Zebra.mp3",
+        image: "./src/assets/music-images/Zebra.jpg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 22,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/kgf.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Kgf.mp3",
+        image: "./src/assets/music-images/kgf.jpg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 23,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/radhashama.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Radheshyam.mp3",
+        image: "./src/assets/music-images/radhashama.jpg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+  {
+    id: 24,
+    name: "Tamil Hits",
+    description: "Latest Tamil songs",
+    image: "./src/assets/music-images/kanthra.jpg",
+    songs: [
+      {
+        id: 1,
+        title: "Kadhal Ondru",
+        artist: "Anirudh Ravichander",
+        src: "./src/assets/music/Kanthara.mp3",
+        image: "./src/assets/music-images/kanthra.jpg",
+        category: "Tamil Songs",
+      },
+    ],
+  },
+
+
+];
